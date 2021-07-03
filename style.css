@@ -24,7 +24,7 @@ p{
     display: flex;
     background: url(img/top-banner.png);
     background-repeat: no-repeat;
-    
+
 }
 div{
     width: 50%;
@@ -41,4 +41,11 @@ div img{
     color: #fff;
     font-weight: 700;
     text-transform: capitalize;
+}
+.dream{
+    background: url(img/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    display: flex;
+    margin-top: 100px;
 }
