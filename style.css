@@ -49,3 +49,55 @@ div img{
     display: flex;
     margin-top: 100px;
 }
+.experience{
+    margin-top: 100px;
+    background: url(img/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: 0 210px;
+}
+.flex-con{
+    display: flex;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.box{
+    width: 40%;
+    padding-left: 2%;
+    margin-left: 5%;
+    float: left;
+    box-shadow: 5px 7px 40px grey;
+    height: 80%;
+    margin-bottom: 40px;
+}
+.box h1{
+    margin-top: 10px;
+}
+.box p{
+    margin-bottom: 20px;
+}
+.box h3{
+    color: orange;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+.b1{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightsalmon, tomato);
+    border-image-slice: 1;
+}
+.b2{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+}
+.exp-title{
+    margin-bottom: 100px;
+    margin-left: 10px;
+}
+footer{
+    margin-top: 40px;
+}
+footer p{
+    text-align: center;
+}
